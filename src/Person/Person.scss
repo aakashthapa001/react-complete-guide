@@ -1,0 +1,21 @@
+.Person {
+  box-sizing: border-box;
+  width: calc(100% - 30px);
+  margin: 20px auto 0;
+  background: #fff000;
+  box-shadow: 0 2px 2px #ccc;
+  padding: 16px;
+  text-align: center;
+
+  input.textInput {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-width: 2px;
+  }
+}
+
+@media (min-width: 500px) {
+  .Person {
+    width: 650px;
+  }
+}
